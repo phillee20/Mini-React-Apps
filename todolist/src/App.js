@@ -4,6 +4,7 @@ import Contents from "./components/contents";
 
 function App() {
   return (
+    // state
     <div>
       <Header />
       <Contents />
