@@ -12,6 +12,7 @@ function App() {
     "Karen",
   ];
 
+  // thee state thingies should stay in the "App" component.
   const [randomName, setRandomName] = useState(randomNames[0]);
   const [hasBeenClicked, setHasBeenClicked] = useState(false);
 
@@ -30,7 +31,6 @@ function App() {
 }
 
 //COMPONENT
-
 const Header = () => {
   return <h1>Random Name Generator</h1>;
 };
